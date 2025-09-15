@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: minikubetask
-        image: minikube:latest   
+        image: manoj232005/minikube:latest
+        imagePullPolicy: Never   
         ports:
         - containerPort: 80
         envFrom:
